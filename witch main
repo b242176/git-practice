@@ -1,0 +1,21 @@
+[1mdiff --git a/README.md b/README.md[m
+[1mindex 530ac73..833be07 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -1,2 +1,2 @@[m
+ # git 練習[m
+[31m-hello.py：実行すると「Hello, Git!」と表示するプログラム[m
+\ No newline at end of file[m
+[32m+[m[32mhello.py：実行すると「Hello, Git!」と表示するプログラムに名前を受け取れるようにするプログラム[m
+\ No newline at end of file[m
+[1mdiff --git a/hello.py b/hello.py[m
+[1mindex 5d97bdd..52af1f3 100644[m
+[1m--- a/hello.py[m
+[1m+++ b/hello.py[m
+[36m@@ -1 +1,4 @@[m
+[31m-print("Hello, Git!")[m
+[32m+[m[32mdef greet(name):[m
+[32m+[m[32m    print(f"Hello, {name}!")[m
+[32m+[m
+[32m+[m[32mgreet("Git")[m
+\ No newline at end of file[m
